@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{page.title}} · {% endif %}Planets of the Universe{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
+	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+	<meta name="description" content="{{page.meta}}">
+</head>
+<body>
+
+<header class="masthead {{page.mastheadClass}}">
+	<h1>Planets of the Universe</h1>
+	{% include nav.html navclass='nav-top' %}
+</header>
+
+{{content}}
+
+<footer>
+	{% include nav.html navclass='nav-bottom' %}
+	<p>© 2013 Planets of the Universe</p>
+</footer>
+
+</body>
+</html>

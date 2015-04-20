@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<strong>News</strong>
+
+<nav>
+	<ul>
+		<li><a href="{{site.baseurl}}/news/" class="{% if page.url contains 'news' %}current{% endif %}">Planetary News</a></li>
+		<li><a href="{{site.baseurl}}/recently-discovered/" class="{% if page.url contains 'recently-discovered' %}current{% endif %}">Recently Discovered Planets</a></li>
+	</ul>
+</nav>
+
+{{content}}

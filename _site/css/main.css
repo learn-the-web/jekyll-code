@@ -1,0 +1,41 @@
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1.4 Georgia,serif;
+}
+
+.masthead {
+	padding: 1em;
+
+	background: #000531 url("../img/nebula.jpg") no-repeat center center;
+	background-size: cover;
+
+	color: #fff;
+}
+
+.masthead-planets {
+	background-image: url("../img/nebula-2.jpg");
+}
+
+.current {
+	background-color: #000531;
+
+	color: #fff;
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.nav-top {
+	font-size: 1.25rem;
+}
+

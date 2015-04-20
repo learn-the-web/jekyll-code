@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /jekyll-code
+exclude: ['README.md']
+permalink: pretty
