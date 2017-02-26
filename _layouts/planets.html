@@ -6,7 +6,7 @@ layout: default
 
 <nav>
   <ul>
-    {% for planet in site.categories.planet-type %}
+    {% for planet in site.data.planet-types %}
       <li>
         <a href="{{site.baseurl}}/planets/{{planet.folder}}/" class="{% if page.url contains planet.folder %}current{% endif %}">{{planet.title}}</a>
       </li>
