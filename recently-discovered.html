@@ -7,10 +7,10 @@ meta: Regularly discovered extra-solar planets throughout the universe.
 <h1>Recently Discovered Planets</h1>
 
 <ul>
-	{% for news in site.categories.recently-discovered %}
-		<li>
-			<a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
-			<p>{{news.meta}}</p>
-		</li>
-	{% endfor %}
+  {% for news in site.categories.recently-discovered %}
+    <li>
+      <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+      <p>{{news.meta}}</p>
+    </li>
+  {% endfor %}
 </ul>
