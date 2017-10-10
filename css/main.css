@@ -1,6 +1,6 @@
 ---
 ---
 
-{% include css/common.css %}
-{% include css/masthead.css %}
-{% include css/nav.css %}
+{% include_relative common.css %}
+{% include_relative masthead.css %}
+{% include_relative nav.css %}
