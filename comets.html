@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Comets"
+---
+
+<h1>Comets</h1>
+
+{% for comet in site.comets %}
+  <h2>{{comet.title}}</h2>
+  <img src="{{site.baseurl}}/img/{{comet.img}}" alt="">
+  <a href="{{site.baseurl}}{{comet.url}}">Read more about {{comet.title}}</a>
+{% endfor %}
