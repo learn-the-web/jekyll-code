@@ -1,9 +1,9 @@
 <url>
-  <loc>https://demos.learn-the-web.algonquindesign.ca{{site.baseurl}}{{include.entry.url}}</loc>
+  <loc>https://demos.learntheweb.courses{{site.baseurl}}{{include.entry.url}}</loc>
   {% if include.entry.changefreq %}
-    <changefreq>{{include.entry.changefreq}}</changefreq>
+  <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}
   {% if include.entry.priority %}
-    <priority>{{include.entry.priority}}</priority>
+  <priority>{{include.entry.priority}}</priority>
   {% endif %}
 </url>
